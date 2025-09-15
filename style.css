@@ -1,0 +1,112 @@
+body {
+   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 0 100px; 
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+}
+.header a {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+.header a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+ 
+}
+.login {
+  background: #0b57d0;;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.login:hover {
+  background: #0b57d0;;
+}
+
+/* LOGO */
+.logo {
+  margin-top: 80px;
+  text-align: center;
+}
+.logo img {
+  max-width: 300px;
+  width: 90%;
+  height: auto;
+}
+
+/* PESQUISA */
+.pesquisa {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+/*AJUDA DO CHAT GPT*/
+.barra {
+  width: 80%;
+  max-width: 600px;
+    padding: 12px 20px 12px 45px; /* espaço à esquerda para a lupa */
+  border-radius: 30px;
+  border: 1px solid #3c4043;
+  font-size: 16px;
+  background: url('img/lupa.PNG') no-repeat 15px center; /* caminho da lupa */
+  background-size: 20px 20px;
+}
+
+
+
+.botoes {
+  margin-top: 20px;
+}
+.botoes button {
+  background: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  color: #;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
+}
+.botoes button:hover {
+  border-color: #1f1f1f;;
+}
+
+/* RODAPÉ */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f7f8f9;;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  color: #1f1f1f;;
+}
+.footer-top,
+.footer-bottom {
+  padding: 10px 20px;
+}
+.footer-bottom {
+  border-top: 1px solid #f7f8f9;;
+}
+.footer-bottom a {
+  margin-right: 10px;
+  color: #1f1f1f;;
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  border-bottom: 1px dashed #f7f8f9;;
+}
+
